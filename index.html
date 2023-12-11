@@ -1,4 +1,5 @@
-<html>
+<html lang="en">
+    <head>
     <style>
         h1 {text-align: center;font-family:Georgia;color:whitesmoke;font-size:31px;background-color:tomato;}
         h2 {text-align: center;font-family:Georgia;}
@@ -23,14 +24,80 @@ ul.myUL {
   display: inline-block;
   text-align: left;
 }
-        .city {
+        .table {
   background-color: tomato;
   color: white;
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
 }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
      </style>
+     </head>
 <br>
 <h1>Renewable Energy's Disruptive Technology: Powering Sustainability </h1>
     <img src="Renewable energy.jpg" alt="https://www.freepik.com/free-photo/view-bioengineering-advance-with-human-hands_57314142.htm" class="center" style="width:800px;height:400px">
@@ -38,17 +105,21 @@ ul.myUL {
         <body>
             <div class="table">
               <h2>TABLE OF CONTENTS</h2>
+              <section>
+                <nav>
         <ul class="myUL">
-            <li>Introduction</li>
-            <li>Renewable Energy</li>
-            <li>Types of Renewable Energy</li>
-            <li>Disruptive Technology</li>
-            <li>Examples of Disruptive Technology in Renewable Energy</li>
-            <li>Benefits of Disruptive Technology in Renewable Energy</li>
-            <li>Overcoming Challenges and Limitations</li>
-            <li>Conclusion</li>
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Renewable Energy</a></li>
+            <li><a href="#">Types of Renewable Energy</a></li>
+            <li><a href="#">Disruptive Technology</a></li>
+            <li><a href="#">Examples of Disruptive Technology in Renewable Energy</a></li>
+            <li><a href="#">Benefits of Disruptive Technology in Renewable Energy</a></li>
+            <li><a href="#">Overcoming Challenges and Limitations</a></li>
+            <li><a href="#">Conclusion</a></li>
           </ul> 
         </div>
+    </nav>
+</section>
 
 <div class="myUL">
     <h2>Introduction</h2>
@@ -69,6 +140,9 @@ ul.myUL {
     <h2>Types of Renewable Energy</h2>
     <p>Some types of renewable energy include solar power, wind power, hydroelectric power, geothermal energy, and biomass energy. These sources harness natural resources that are constantly replenished, making them a sustainable alternative to fossil fuels. Each type of renewable energy has its own unique advantages and challenges, but collectively they offer a promising solution to reduce greenhouse gas emissions and combat climate change.</p>
     </div>
+    <footer>
+        <p>Footer</p>
+      </footer>
           <h6 style="font-size:100%;">Reference: </h6>
   <h6 style="font-size:90%;"><i>View Of Bioengineering Advance With Human Hands.</i> (n.d.). Freepik. https://www.freepik.com/free-photo/view-bioengineering-advance-with-human-hands_57314142.htm</h6>
   <div id="header" align="center">
