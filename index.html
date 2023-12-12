@@ -1,152 +1,200 @@
-<html lang="en">
-    <head>
-    <style>
-        h1 {text-align: center;font-family:Georgia;color:whitesmoke;font-size:31px;background-color:tomato;}
-        h2 {text-align: center;font-family:Georgia;}
-        li {text-align:center}
-        p {text-align: left;}
-        div {text-align: center;}
-        img {
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title</title>
+   <style>
+
+.main{
+background-color: #f0f2f0;
+  color: black;
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+  height: 500px;
+}
+
+.main2{
+background-color: #f0f2f0;
+  color: black;
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+  height: 800px;
+}
+
+.main3{
+background-color: #f0f2f0;
+  color: black;
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+  height: 250px;
+}
+
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #c8ddb4;
 }
-img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-div.table {
+
+.container {
+  position: relative;
   text-align: center;
-}
-
-ul.myUL {
-  display: inline-block;
-  text-align: left;
-}
-        .table {
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+
+ h1 {font-size: 50px;}
+ h6 {margin:40px;}
+
+#grad1 {
+  height: 100px;
+  background-image: linear-gradient(to right,#f0f2f0,#000c40)
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+  width: 180px;
 }
 
-/* Style the list inside the menu */
-nav ul {
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  }
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  }
+
+  footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+ul.no-bullets {
   list-style-type: none;
+  text-align: center;
+  margin: 0;
   padding: 0;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
+</style>
+</head>
+<body>
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-     </style>
-     </head>
-<br>
-<h1>Renewable Energy's Disruptive Technology: Powering Sustainability </h1>
-    <img src="Renewable energy.jpg" alt="https://www.freepik.com/free-photo/view-bioengineering-advance-with-human-hands_57314142.htm" class="center" style="width:800px;height:400px">
+<div class="container">
+   <img src="./Images/Renewable_energy.jpg" alt="Renewable Energy" width="94%" height="500">
+  <div class="top-left"><h1>MMS 142 Group C</h1></div>
+</div>
 
-        <body>
-            <div class="table">
-              <h2>TABLE OF CONTENTS</h2>
-              <section>
-                <nav>
-        <ul class="myUL">
-            <li><a href="#">Introduction</a></li>
-            <li><a href="#">Renewable Energy</a></li>
-            <li><a href="#">Types of Renewable Energy</a></li>
-            <li><a href="#">Disruptive Technology</a></li>
-            <li><a href="#">Examples of Disruptive Technology in Renewable Energy</a></li>
-            <li><a href="#">Benefits of Disruptive Technology in Renewable Energy</a></li>
-            <li><a href="#">Overcoming Challenges and Limitations</a></li>
-            <li><a href="#">Conclusion</a></li>
-          </ul> 
-        </div>
-    </nav>
-</section>
-
-<div class="myUL">
-    <h2>Introduction</h2>
-    <p>Creating a website about renewable energy as a disruptive technology would be a valuable resource to inform and educate individuals about the latest advancements in this field. The website could have a lot of detailed information about the different technologies, their advantages, and how they are competing with fossil fuels. It could also talk about how these technologies are good for the environment by stressing their ability to lower greenhouse gas emissions and make the air better. The website could also talk about the problems and restrictions that disruptive technology has in terms of being able to grow, being affordable, and working with current systems. It could also show how research and development is being done to get around these issues.</p>
-    </div> 
-    
-    <div class="myUL">
-    <h2>Renewable Energy</h2>
-    <p>According to the United Nations website:</p>
+<div class="main">
+<h2>RENEWABLE ENERGY</h2>
+<p>According to the United Nations website:</p>
     <blockquote cite="https://www.un.org/en/climatechange/what-is-renewable-energy">
-        Renewable energy is energy derived from natural sources that are replenished at a higher rate than they are consumed. Sunlight and wind, for example, are such sources that are constantly being replenished. Renewable energy sources are plentiful and all around us.
-        Fossil fuels - coal, oil and gas - on the other hand, are non-renewable resources that take hundreds of millions of years to form. Fossil fuels, when burned to produce energy, cause harmful greenhouse gas emissions, such as carbon dioxide.
-        Generating renewable energy creates far lower emissions than burning fossil fuels. Transitioning from fossil fuels, which currently account for the lion’s share of emissions, to renewable energy is key to addressing the climate crisis.
-        Renewables are now cheaper in most countries, and generate three times more jobs than fossil fuels.</blockquote>
-    </div>
-    
-    <div class="myUL">
-    <h2>Types of Renewable Energy</h2>
-    <p>Some types of renewable energy include solar power, wind power, hydroelectric power, geothermal energy, and biomass energy. These sources harness natural resources that are constantly replenished, making them a sustainable alternative to fossil fuels. Each type of renewable energy has its own unique advantages and challenges, but collectively they offer a promising solution to reduce greenhouse gas emissions and combat climate change.</p>
-    </div>
-    <footer>
-        <p>Footer</p>
-      </footer>
-          <h6 style="font-size:100%;">Reference: </h6>
-  <h6 style="font-size:90%;"><i>View Of Bioengineering Advance With Human Hands.</i> (n.d.). Freepik. https://www.freepik.com/free-photo/view-bioengineering-advance-with-human-hands_57314142.htm</h6>
-  <div id="header" align="center">
+        <p>Renewable energy is energy derived from natural sources that are replenished at a higher rate than they are consumed. Sunlight and wind, for example, are such sources that are constantly being replenished. Renewable energy sources are plentiful and all around us.</p>
+        <p>Fossil fuels - coal, oil and gas - on the other hand, are non-renewable resources that take hundreds of millions of years to form. Fossil fuels, when burned to produce energy, cause harmful greenhouse gas emissions, such as carbon dioxide.</p>
+        <p>Generating renewable energy creates far lower emissions than burning fossil fuels. Transitioning from fossil fuels, which currently account for the lion’s share of emissions, to renewable energy is key to addressing the climate crisis.
+        Renewables are now cheaper in most countries, and generate three times more jobs than fossil fuels.</p></blockquote>
+ 
+        <h3>Types of Renewable Energy<h3>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.chinadaily.com.cn/a/202104/15/WS60779480a31024ad0bab5a24_2.html">
+    <img src="./Images/Bioenergy.jpeg" alt="Bioenergy" width="600" height="400">
+  </a>
+  <div class="desc">Bioenergy</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.ecowatch.com/how-green-is-hydropower-1919539525.html">
+    <img src="./Images/Hydropower.jpg" alt="Hydropower" width="600" height="400">
+  </a>
+  <div class="desc">Hydropower</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.nytimes.com/2012/10/02/business/energy-environment/marine-energy-projects-pick-up-momentum.html">
+    <img src="./Images/Marine_Energy.jpg" alt="Marine Energy" width="600" height="400">
+  </a>
+  <div class="desc">Marine Energy</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://education.nationalgeographic.org/resource/wind-energy/">
+    <img src="./Images/Solar_Energy-.jpg" alt="Solar Energy" width="600" height="400">
+  </a>
+  <div class="desc">Solar Energy</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://education.nationalgeographic.org/resource/wind-energy/">
+    <img src="./Images/Wind_Energy.jpg" alt="Wind Energy" width="600" height="400">
+  </a>
+  <div class="desc">Wind Energy</div>
+</div>
+
+</div>
+</div>
+
+<div class="main2">
+<h2>Disruptive Technology</h2>
+<p>According to the Investopedia website:</p>
+ <blockquote cite="https://www.investopedia.com/terms/d/disruptive-technology.asp#:~:text=Disruptive%20technology%20is%20an%20innovation,attributes%20that%20are%20recognizably%20superior.">
+<p>Disruptive technology is an innovation that significantly alters the way that consumers, industries, or businesses operate. A disruptive technology sweeps away the systems or habits it replaces because it has attributes that are recognizably superior.
+
+Recent disruptive technology examples include e-commerce, online news sites, ride-sharing apps, and GPS systems.</p></blockquote>
+<p> Disruptive Technology is also playing a crucial role in making renewable energy more accessible and cost-effective. For instance, advancements in solar panel technology have significantly reduced the cost of solar power systems, making them more affordable for homeowners and businesses. Similarly, innovations in wind turbine design have improved the efficiency and reliability of wind power generation. These disruptive technologies are driving the transition towards a clean energy future and are paving the way for a more sustainable and environmentally friendly energy system.
+  Additionally, the development of energy storage technologies has addressed one of the main challenges of renewable energy sources, which is their intermittent nature. With the ability to store excess energy generated during peak production periods, renewable energy systems are now able to provide a consistent and reliable source of power. This has further increased the attractiveness of renewable energy and has made it a viable alternative to traditional fossil fuel-based energy sources. As disruptive technologies continue to evolve, it is expected that renewable energy will become even more accessible and cost-effective, ultimately leading to a greener and more sustainable future for our planet.
+</>
+<p>According to the IEEFA.org, there are seven technology disruptions driving the global energy transition. </p>
+<img src="./Images/7_Disruptions.jpg" alt="7 Disruptions" class="center" width="500" height="345">
+<p>The seven disruptions in the electric power industry are transforming the economics of the thermal coal industry, increasing price competition and leading to a collapse in the relationship between coal and the power industry.</p>
+</div>
+
+<div class="main3">
+<h2>Conclusion</h2>
+<p>Renewable energy is a disruptive technology because it is challenging the traditional dominance of fossil fuels in the energy sector. The advancements in renewable energy technologies, such as solar and wind power, have already made significant strides in reducing greenhouse gas emissions and mitigating climate change. As these technologies continue to improve and become more efficient, they will undoubtedly play a crucial role in shaping a sustainable and cleaner energy future for our planet. 
+</p>
+<p>Furthermore, the increasing affordability and accessibility of renewable energy sources are driving their widespread adoption across the globe. Governments and businesses alike are recognizing the economic and environmental benefits of transitioning to renewable energy, leading to a surge in investments and policy support. In fact, many countries have set ambitious targets to increase their renewable energy capacity in the coming years, further accelerating the transition away from fossil fuels. This shift not only reduces our dependence on finite resources but also creates new job opportunities and stimulates economic growth in the renewable energy sector. Moreover, the decentralization of energy production through renewable sources empowers individuals and communities to become</p>
+</div>
+<h6 style="font-size:100%;">Reference: </h6>
+  <h6 style="font-size:90%;"><i>View Of Bioengineering Advance With Human Hands.</i> (n.d.). Freepik. https://www.freepik.com/free-photo/view-bioengineering-advance-with-human-hands_57314142.htm<br>
+  <i>Feaster. (2018, October). The Seven Technology Disruptions Driving the Global Energy Transition: A Primer. In https://ieefa.org/wp-content/uploads/2018/10/Seven-Technology-Disruptions_October-2018.pdf.</h6>
+<footer>
+   <h3>Group Members</h3>
+  <ul class="no-bullets">
+    <li>Kevin Claude Beritan</li>
+    <li>Nhel Ceejay Bernarte</li>
+    <li>Marcial Rode Boholano</li>
+    <li>Mark John Paul Cabling</li>
+    <li>Rhon Joshua Calupitan</li>
+    <li>Visamae June Lovelle Cañal</li>
+</ul> <div id="header" align="center">
     <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   </div> 
+  <br>
+  </footer>
+
+<div id="grad1"></div>
+
 </body>
 </html>
