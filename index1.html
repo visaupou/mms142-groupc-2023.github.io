@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>MMS 142: Renewable Energy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index1.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="material-icons" onclick="hideMenu()">clear</i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">EXPLORE</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="material-icons" onclick="showMenu()">menu</i>
+        </nav>
+
+<div class="text-box">
+    <h1>Renewable Energy</h1>
+    <p>Renewable energy is energy derived from natural sources that are replenished at a higher rate than they are consumed. <br>
+        Sunlight and wind, for example, are such sources that are constantly being replenished. <br>
+        Renewable energy sources are plentiful and all around us.</p>
+    <a href="" class="hero-btn">Learn More</a>
+</div>
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px"; // Adjust the value based on the width of your nav-links
+    }
+</script>
+
+</body>
+</html>
