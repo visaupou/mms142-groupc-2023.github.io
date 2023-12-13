@@ -1,200 +1,127 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
- 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MMS 142 Group C 2023</title>
-   <style>
-
-.main{
-background-color: #f0f2f0;
-  color: black;
-  border: 2px solid black;
-  margin: 40px;
-  padding: 20px;
-  height: 500px;
-}
-
-.main2{
-background-color: #f0f2f0;
-  color: black;
-  border: 2px solid black;
-  margin: 40px;
-  padding: 20px;
-  height: 800px;
-}
-
-.main3{
-background-color: #f0f2f0;
-  color: black;
-  border: 2px solid black;
-  margin: 40px;
-  padding: 20px;
-  height: 250px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.top-left {
-  position: absolute;
-  top: 20px;
-  left: 60px;
-}
-
- h1 {font-size: 50px;}
- h6 {margin:40px;}
-
-#grad1 {
-  height: 100px;
-  background-image: linear-gradient(to right,#f0f2f0,#000c40)
-}
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  }
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-  }
-
-  footer {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  color: black;
-}
-
-ul.no-bullets {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-</style>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>MMS 142: Renewable Energy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
+    <section class="header">
+        <nav>
+            <a href="index1.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="material-icons" onclick="hideMenu()">clear</i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">EXPLORE</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="material-icons" onclick="showMenu()">menu</i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Renewable Energy</h1>
+        <p>Renewable energy is energy derived from natural sources that are replenished at a higher rate than they are consumed. <br>
+            Sunlight and wind, for example, are such sources that are constantly being replenished. <br>
+            Renewable energy sources are plentiful and all around us.</p>
+        <a href="" class="hero-btn">Learn More</a>
+    </div>
+
+    </section>
+
+    <!--Types of Renewable Energy-->
+
+    <section class="renewableEnergyTypes">
+        <h1>Types of Renewable Energy</h1>
+        <p>Renewable energy has different types, each offering a sustainable alternative to conventional sources. Solar, wind, hydropower, marine, geothermal, and biomass are among the prominent forms of renewable energy.
+            Unlike fossil fuels, which are finite and contribute to harmful greenhouse gas emissions, renewable energy sources are abundant and produce significantly lower emissions. This transition 
+            to renewables is crucial for combating the climate crisis, as they not only mitigate environmental impact but also prove economically competitive, fostering job growth and sustainability on a global scale.</p>
+
+        <div class="row">
+            <div class="typesCol">
+                <img src="Images/solar.jpg">
+                <div class="layer">
+                        <h3>SOLAR</h3>
+                        <p>Harnessing the power of the sun's rays, solar energy converts sunlight into electricity through photovoltaic cells, offering a clean and abundant source of power.</p>
+                </div>
+            </div>
+            <div class="typesCol">
+                <img src="Images/wind.jpg">
+                <div class="layer">
+                        <h3>WIND</h3>
+                        <p>Utilizing the kinetic energy of moving air, wind turbines generate electricity, providing a sustainable and rapidly growing solution to meet energy demands.</p>
+                </div>
+            </div>
+            <div class="typesCol">
+                <img src="Images/hydro.jpg">
+                <div class="layer">
+                        <h3>HYDROPOWER</h3>
+                        <p>By capturing the energy from flowing or falling water, hydropower systems produce electricity, offering a reliable and environmentally friendly source of renewable energy.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="typesCol">
+                <img src="Images/marine.jpg">
+                <div class="layer">
+                        <h3>MARINE</h3>
+                        <p>Tapping into the power of ocean currents, waves, and tides, marine energy technologies aim to generate electricity, offering a promising frontier for sustainable power generation.</p>
+                </div>
+            </div>
+            <div class="typesCol">
+                <img src="Images/geothermal.jpg">
+                <div class="layer">
+                        <h3>GEOTHERMAL</h3>
+                        <p>Extracting heat from the Earth's interior, geothermal power plants generate electricity and heat, providing a consistent and eco-friendly source of energy.</p>
+                </div>
+            </div>
+            <div class="typesCol">
+                <img src="Images/biomass.jpg">
+                <div class="layer">
+                        <h3>BIOMASS</h3>
+                        <p>Derived from organic materials like plants and waste, biomass energy involves converting biological matter into fuel, offering a renewable and versatile energy source.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="renewableEnergyDisrupt">
+        <h3>Global Effects</h3>
+        <p>Renewable energy is not merely a solution; it can also be considered a disruptive technoogy. 
+            Advancements in solar panel technology and wind turbine design, emblematic of disruptive technologies, 
+            have significantly reduced costs and increased the accessibility of clean energy. These innovations, 
+            coupled with developments in energy storage, address the intermittent nature of renewable sources, 
+            transforming them into reliable and consistent power providers. As disruptive technologies in the renewable 
+            energy sector continue to evolve, they are propelling the transition towards a more sustainable and environmentally 
+            friendly energy system, making it an increasingly viable alternative to traditional fossil fuel-based sources.</p>
+            <a href="" class="read-btn">Read More About Disruptive Technology</a>
+    </section>
+  
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This static webpage has been designed and developed by Group C of Class 2023 for the course MMS 142: Internet Technologies and Web Development. <br>
+            This serves as a partial fulfillment of the requirements for MMS 142.</p>
+    </section>
 
 
+    <!--toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
 
-<div class="container">
-   <img src="./Images/Renewable energy.jpg" alt="Renewable Energy" width="94%" height="500">
-  <div class="top-left"><h1>MMS 142 Group C</h1></div>
-</div>
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
 
-<div class="main">
-<h2>RENEWABLE ENERGY</h2>
-<p>According to the United Nations website:</p>
-    <blockquote cite="https://www.un.org/en/climatechange/what-is-renewable-energy">
-        <p>Renewable energy is energy derived from natural sources that are replenished at a higher rate than they are consumed. Sunlight and wind, for example, are such sources that are constantly being replenished. Renewable energy sources are plentiful and all around us.</p>
-        <p>Fossil fuels - coal, oil and gas - on the other hand, are non-renewable resources that take hundreds of millions of years to form. Fossil fuels, when burned to produce energy, cause harmful greenhouse gas emissions, such as carbon dioxide.</p>
-        <p>Generating renewable energy creates far lower emissions than burning fossil fuels. Transitioning from fossil fuels, which currently account for the lion’s share of emissions, to renewable energy is key to addressing the climate crisis.
-        Renewables are now cheaper in most countries, and generate three times more jobs than fossil fuels.</p></blockquote>
- 
-        <h3>Types of Renewable Energy<h3>
-
-<div class="gallery">
-  <a target="_blank" href="https://www.chinadaily.com.cn/a/202104/15/WS60779480a31024ad0bab5a24_2.html">
-    <img src="./Images/Bioenergy.jpeg" alt="Bioenergy" width="600" height="400">
-  </a>
-  <div class="desc">Bioenergy</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://www.ecowatch.com/how-green-is-hydropower-1919539525.html">
-    <img src="./Images/Hydropower.jpg" alt="Hydropower" width="600" height="400">
-  </a>
-  <div class="desc">Hydropower</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://www.nytimes.com/2012/10/02/business/energy-environment/marine-energy-projects-pick-up-momentum.html">
-    <img src="./Images/Marine Energy.jpg" alt="Marine Energy" width="600" height="400">
-  </a>
-  <div class="desc">Marine Energy</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://education.nationalgeographic.org/resource/wind-energy/">
-    <img src="./Images/Solar Energy-.jpg" alt="Solar Energy" width="600" height="400">
-  </a>
-  <div class="desc">Solar Energy</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://education.nationalgeographic.org/resource/wind-energy/">
-    <img src="./Images/Wind Energy.jpg" alt="Wind Energy" width="600" height="400">
-  </a>
-  <div class="desc">Wind Energy</div>
-</div>
-
-</div>
-</div>
-
-<div class="main2">
-<h2>Disruptive Technology</h2>
-<p>According to the Investopedia website:</p>
- <blockquote cite="https://www.investopedia.com/terms/d/disruptive-technology.asp#:~:text=Disruptive%20technology%20is%20an%20innovation,attributes%20that%20are%20recognizably%20superior.">
-<p>Disruptive technology is an innovation that significantly alters the way that consumers, industries, or businesses operate. A disruptive technology sweeps away the systems or habits it replaces because it has attributes that are recognizably superior.
-
-Recent disruptive technology examples include e-commerce, online news sites, ride-sharing apps, and GPS systems.</p></blockquote>
-<p> Disruptive Technology is also playing a crucial role in making renewable energy more accessible and cost-effective. For instance, advancements in solar panel technology have significantly reduced the cost of solar power systems, making them more affordable for homeowners and businesses. Similarly, innovations in wind turbine design have improved the efficiency and reliability of wind power generation. These disruptive technologies are driving the transition towards a clean energy future and are paving the way for a more sustainable and environmentally friendly energy system.
-  Additionally, the development of energy storage technologies has addressed one of the main challenges of renewable energy sources, which is their intermittent nature. With the ability to store excess energy generated during peak production periods, renewable energy systems are now able to provide a consistent and reliable source of power. This has further increased the attractiveness of renewable energy and has made it a viable alternative to traditional fossil fuel-based energy sources. As disruptive technologies continue to evolve, it is expected that renewable energy will become even more accessible and cost-effective, ultimately leading to a greener and more sustainable future for our planet.
-</>
-<p>According to the IEEFA.org, there are seven technology disruptions driving the global energy transition. </p>
-<img src="./Images/7 Disruptions.jpg" alt="7 Disruptions" class="center" width="500" height="345">
-<p>The seven disruptions in the electric power industry are transforming the economics of the thermal coal industry, increasing price competition and leading to a collapse in the relationship between coal and the power industry.</p>
-</div>
-
-<div class="main3">
-<h2>Conclusion</h2>
-<p>Renewable energy is a disruptive technology because it is challenging the traditional dominance of fossil fuels in the energy sector. The advancements in renewable energy technologies, such as solar and wind power, have already made significant strides in reducing greenhouse gas emissions and mitigating climate change. As these technologies continue to improve and become more efficient, they will undoubtedly play a crucial role in shaping a sustainable and cleaner energy future for our planet. 
-</p>
-<p>Furthermore, the increasing affordability and accessibility of renewable energy sources are driving their widespread adoption across the globe. Governments and businesses alike are recognizing the economic and environmental benefits of transitioning to renewable energy, leading to a surge in investments and policy support. In fact, many countries have set ambitious targets to increase their renewable energy capacity in the coming years, further accelerating the transition away from fossil fuels. This shift not only reduces our dependence on finite resources but also creates new job opportunities and stimulates economic growth in the renewable energy sector. Moreover, the decentralization of energy production through renewable sources empowers individuals and communities to become</p>
-</div>
-<h6 style="font-size:100%;">Reference: </h6>
-  <h6 style="font-size:90%;"><i>View Of Bioengineering Advance With Human Hands.</i> (n.d.). Freepik. https://www.freepik.com/free-photo/view-bioengineering-advance-with-human-hands_57314142.htm<br>
-  <i>Feaster. (2018, October). The Seven Technology Disruptions Driving the Global Energy Transition: A Primer. In https://ieefa.org/wp-content/uploads/2018/10/Seven-Technology-Disruptions_October-2018.pdf.</h6>
-<footer>
-   <h3>Group Members</h3>
-  <ul class="no-bullets">
-    <li>Kevin Claude Beritan</li>
-    <li>Nhel Ceejay Bernarte</li>
-    <li>Marcial Rode Boholano</li>
-    <li>Mark John Paul Cabling</li>
-    <li>Rhon Joshua Calupitan</li>
-    <li>Visamae June Lovelle Cañal</li>
-</ul> <div id="header" align="center">
-    <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-  </div> 
-  <br>
-  </footer>
-
-<div id="grad1"></div>
+        function hideMenu() {
+            navLinks.style.right = "-200px"; // Adjust the value based on the width of your nav-links
+        }
+    </script>
 
 </body>
 </html>
