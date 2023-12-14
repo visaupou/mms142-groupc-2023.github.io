@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>MMS 142: Renewable Energy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <section class="aboutHeader">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="material-icons" onclick="hideMenu()">clear</i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="explore.html">EXPLORE</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="material-icons" onclick="showMenu()">menu</i>
+            </nav>
+
+       <h1>About Us</h1>
+    </section>
+
+    <section class="aboutUs">
+        <div class="row">
+            <div class="aboutCol">
+                <h1>MMS 142: Internet 
+                    Technologies and Web Development</h1>
+                <p>
+                    This webpage is a collaborative effort by Group C, made up of Multimedia Studies students 
+                    from the University of the Philippines Open University, as part of the MMS 142: Internet 
+                    Technologies and Web Development course. The goal of this page is to explore Renewable Energy 
+                    as a Disruptive Technology and to create awareness about its global impact, both negative and positive.</p>
+            </div>
+
+            <div class="aboutCol">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutTeam">
+        <h1>The Team</h1>
+        <p>Meet the team behind the project.</p>
+    
+        <div class="teamRows">
+            <div class="teamRow">
+                <div class="teamMember">
+                    <div class="memberPhoto" style="background-image: url('Images/members_photo/stock.jpg');"></div>
+                    <h3>Kevin Claude Beritan</h3>
+                    <p>student number<br>
+                        kberitan@up.edu.ph</p>
+                </div>
+    
+                <div class="teamMember">
+                    <div class="memberPhoto" style="background-image: url('Images/members_photo/stock.jpg');"></div>
+                    <h3>Nhel Ceejay Bernarte</h3>
+                    <p>student number<br>
+                        nrbernarte@up.edu.ph</p>
+                </div>
+    
+                <div class="teamMember">
+                    <div class="memberPhoto" style="background-image: url('Images/members_photo/stock.jpg');"></div>
+                    <h3>Marcial Rode Boholano</h3>
+                    <p>student number<br>
+                        msboholano@up.edu.ph</p>
+                </div>
+            </div>
+    
+            <div class="teamRow">
+                <div class="teamMember">
+                    <div class="memberPhoto" style="background-image: url('Images/members_photo/stock.jpg');"></div>
+                    <h3>Mark John Paul Cabling</h3>
+                    <p>student number<br>
+                        macabling@up.edu.ph</p>
+                </div>
+    
+                <div class="teamMember">
+                    <div class="memberPhoto" style="background-image: url('Images/members_photo/calupitan.jpg');"></div>
+                    <h3>Rhon Joshua Calupitan</h3>
+                    <p>2022-30993<br>
+                        rvcalupitan@up.edu.ph</p>
+                </div>
+    
+                <div class="teamMember">
+                    <div class="memberPhoto" style="background-image: url('Images/members_photo/stock.jpg');"></div>
+                    <h3>Visamae June Lovelle Cañal</h3>
+                    <p>student number<br>
+                        vbcanal@up.edu.ph</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+
+ 
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This static webpage was designed and developed by Group C of Class 2023 for the course MMS 142: Internet Technologies and Web Development. <br>
+            This serves as a partial fulfillment of the requirements for MMS 142.</p>
+    </section>
+
+    <!--toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"; // Adjust the value based on the width of your nav-links
+        }
+    </script>
+
+</body>
+</html>
